@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "YandexSansText-Thin";
+    src: url("YandexSansText/YandexSansText-Thin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "YandexSansText-Light";
+    src: url("YandexSansText/YandexSansText-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "YandexSansText-Regular";
+    src: url("YandexSansText/YandexSansText-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "YandexSansText-Medium";
+    src: url("YandexSansText/YandexSansText-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "YandexSansText-Bold";
+    src: url("YandexSansText/YandexSansText-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+

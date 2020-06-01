@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+    <g id="music-player" transform="translate(-0.001)">
+        <g id="Group_72" data-name="Group 72" transform="translate(0.001)">
+            <path id="Path_67" data-name="Path 67"
+                  d="M6.816,1.908V14.957a4.059,4.059,0,1,0,1.307,2.982V7.768l12.571-1.58v7.025A4.059,4.059,0,1,0,22,16.195V0ZM4.062,20.693a2.754,2.754,0,1,1,2.754-2.754A2.757,2.757,0,0,1,4.062,20.693ZM17.94,18.949a2.754,2.754,0,1,1,2.754-2.754A2.757,2.757,0,0,1,17.94,18.949ZM20.694,4.871,8.123,6.45V3.061l12.571-1.58Z"
+                  transform="translate(-0.001)"/>
+        </g>
+    </g>
+</svg>

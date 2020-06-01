@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.872" height="21.687" viewBox="0 0 17.872 21.687">
+    <g id="book" transform="translate(-45.036)">
+        <path id="Path_75" data-name="Path 75" d="M195.952,101.333h7.63V102.6h-7.63Z"
+              transform="translate(-144.524 -97.041)"/>
+        <path id="Path_76" data-name="Path 76" d="M225.976,161.381h5.087v1.271h-5.087Z"
+              transform="translate(-173.276 -154.545)"/>
+        <path id="Path_77" data-name="Path 77"
+              d="M47.579,0a2.546,2.546,0,0,0-2.543,2.543v16.6a2.546,2.546,0,0,0,2.543,2.543H62.908V0ZM61.637,16.6H48.85V1.271H61.637ZM47.579,1.271h0V16.6h0a2.527,2.527,0,0,0-1.272.343V2.543a1.274,1.274,0,0,1,1.272-1.272Zm0,19.145a1.272,1.272,0,0,1,0-2.544H61.637v2.544Z"
+              transform="translate(0)"/>
+    </g>
+</svg>

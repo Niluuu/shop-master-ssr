@@ -1,12 +1,11 @@
-import Nav from '../components/nav'
+import Header from "../src/components/header";
+import HeaderMenu from "../src/components/headerMenu";
 
 export default function IndexPage() {
   return (
     <div>
-      <Nav />
-      <div className="hero">
-        <h1 className="title">Next.js + Tailwind CSS</h1>
-      </div>
+      <Header />
+      <HeaderMenu />
     </div>
-  )
+  );
 }
