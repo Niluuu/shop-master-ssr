@@ -2509,7 +2509,12 @@ label input[type="checkbox"]:checked + .favourite-item__icon::before {
 .footer-contacts__item {
   margin-top: 15px;
   font-size: 16px;
+  color: #282828 !important;
 }
+.footer-contacts__item a {
+  color: #282828 !important;
+}
+
 .footer-contacts__item b {
   font-family: "YandexSansText-Regular", sans-serif;
   font-weight: bold;

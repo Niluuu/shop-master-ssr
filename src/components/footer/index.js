@@ -1,11 +1,13 @@
 import React from "react";
 import Social from "./social";
+import FooterBlock from "./footerBlock";
 
 function Footer() {
   return (
-    <div>
+    <React.Fragment>
       <Social />
-    </div>
+      <FooterBlock />
+    </React.Fragment>
   );
 }
 

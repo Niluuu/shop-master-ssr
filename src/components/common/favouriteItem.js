@@ -6,7 +6,7 @@ function FavouriteItem({ product }) {
     <React.Fragment>
       {Array.from(Array(product).keys()).map((index) => {
         return (
-          <a href="#!" class="sm-product-item">
+          <a key={Math.random()} href="#!" class="sm-product-item">
             <span class="sm-product__photo">
               <img src={img} alt="" />
 
