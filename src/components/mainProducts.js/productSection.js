@@ -5,10 +5,10 @@ import Advertising from "./advertising";
 
 function ProductSection() {
   return (
-    <div class="container">
-      <section class="section-main">
-        <div class="section-top">
-          <h2 class="section-title">Большие упаковки!</h2>
+    <div className="container">
+      <section className="section-main">
+        <div className="section-top">
+          <h2 className="section-title">Большие упаковки!</h2>
         </div>
 
         <div className="section-wrap section-grid">

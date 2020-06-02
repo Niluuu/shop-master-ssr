@@ -15,10 +15,10 @@ const links = [
 
 function DeskTopMenu() {
   return (
-    <div class="desktop-menu">
-      <nav class="navbar navbar-light navbar-expand-lg mainmenu">
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav mr-auto">
+    <div className="desktop-menu">
+      <nav className="navbar navbar-light navbar-expand-lg mainmenu">
+        <div className="collapse navbar-collapse">
+          <ul className="navbar-nav mr-auto">
             {links.map(({ href, name, id }) => {
               return (
                 <li key={id}>

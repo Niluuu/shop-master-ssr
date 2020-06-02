@@ -2,20 +2,20 @@ import React from "react";
 
 function HeaderMenuDetail() {
   return (
-    <div class="header-menu">
-      <a href="index.html" class="logo">
+    <div className="header-menu">
+      <a href="index.html" className="logo">
         Shop.com
       </a>
 
-      <div class="header-menu__center">
-        <button class="header-menu__button">
-          <i class="fa fa-align-right" aria-hidden="true"></i>
+      <div className="header-menu__center">
+        <button className="header-menu__button">
+          <i className="fa fa-align-right" aria-hidden="true"></i>
           Везде
         </button>
 
-        <div class="header-search__block">
+        <div className="header-search__block">
           <form action="">
-            <div class="header-search__inner">
+            <div className="header-search__inner">
               <select name="" id="">
                 <option value="" hidden="">
                   Везде
@@ -25,19 +25,19 @@ function HeaderMenuDetail() {
                 <option value="">3</option>
               </select>
 
-              <div class="form-group">
+              <div className="form-group">
                 <input type="text" placeholder="Search" />
               </div>
             </div>
 
-            <button class="search-submit">
-              <i class="fa fa-search" aria-hidden="true"></i>
+            <button className="search-submit">
+              <i className="fa fa-search" aria-hidden="true"></i>
             </button>
           </form>
         </div>
       </div>
 
-      <div class="header-menu__details">
+      <div className="header-menu__details">
         <ul>
           <li>
             <a href="#!">Войти</a>

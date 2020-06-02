@@ -11,15 +11,15 @@ const links = [
 
 export default function HeaderTop() {
   return (
-    <div class="header-top">
-      <div class="container">
-        <div class="header-top__wrap">
-          <a href="#!" class="header-top__location">
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
+    <div className="header-top">
+      <div className="container">
+        <div className="header-top__wrap">
+          <a href="#!" className="header-top__location">
+            <i className="fa fa-map-marker" aria-hidden="true"></i>
             Москва
           </a>
 
-          <div class="header-top__link">
+          <div className="header-top__link">
             <ul>
               {links.map(({ href, name }, index) => {
                 return (

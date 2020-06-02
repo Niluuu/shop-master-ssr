@@ -2,12 +2,12 @@ import React from "react";
 
 function HeaderBottom() {
   return (
-    <div class="header-bottom">
-      <div class="header-bottom__text">
+    <div className="header-bottom">
+      <div className="header-bottom__text">
         <h6>Порадуйте близких даже на расстоянии с новым сервисом!</h6>
       </div>
-      <div class="header-bottom__right">
-        <a href="#!" class="main-btn">
+      <div className="header-bottom__right">
+        <a href="#!" className="main-btn">
           Сделать подарок
         </a>
       </div>

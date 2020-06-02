@@ -3,25 +3,24 @@ import { products } from "./product.json";
 import img from "../../assets/img/sm-product.jpg";
 
 function Products() {
-  console.log("pro", products);
   return (
     <div className="product-center__block">
       <div className="products-wrapper">
         {products.map((index) => {
           return (
-            <a key={Math.random()} href="#!" class="sm-product-item">
-              <span class="sm-product__photo">
+            <a key={Math.random()} href="#!" className="sm-product-item">
+              <span className="sm-product__photo">
                 <img src={img} alt="" />
 
-                <span class="sm-product__discount">
+                <span className="sm-product__discount">
                   <span>-17%</span>
                 </span>
               </span>
 
-              <span class="sm-product__content">
-                <span class="product-text__flex">
-                  <span class="current-price">1470 P</span>
-                  <span class="previous-price">1470 P</span>
+              <span className="sm-product__content">
+                <span className="product-text__flex">
+                  <span className="current-price">1470 P</span>
+                  <span className="previous-price">1470 P</span>
                 </span>
 
                 <h5 style={{ height: "18px" }}>
@@ -32,7 +31,7 @@ function Products() {
           );
         })}
       </div>
-      <a href="#!" class="main-btn">
+      <a href="#!" className="main-btn">
         Посмотреть все товары
       </a>
     </div>
