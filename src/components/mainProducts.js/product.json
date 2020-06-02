@@ -1,0 +1,241 @@
+{
+  "products" : [
+    {
+      "id": 11,
+      "sort_order": 0,
+      "block": "category_menu",
+      "item_type": "category",
+      "items": [
+        {
+          "name": "Категории",
+          "color_hex": null,
+          "id": 3
+        },
+        {
+          "name": "Все",
+          "color_hex": null,
+          "id": 4
+        },
+        {
+          "name": "Акции и купоны",
+          "color_hex": null,
+          "id": 11
+        },
+        {
+          "name": "Красота и здоровье",
+          "color_hex": null,
+          "id": 113
+        },
+        {
+          "name": "Канцелярские товары",
+          "color_hex": null,
+          "id": 138
+        },
+        {
+          "name": "Автотовары",
+          "color_hex": null,
+          "id": 221
+        },
+        {
+          "name": "Дом и сад",
+          "color_hex": null,
+          "id": 1283
+        }
+      ],
+      "title": null
+    },
+    {
+      "id": 12,
+      "sort_order": 1,
+      "block": "category_menu_with_icons",
+      "item_type": "category",
+      "items": [
+        {
+          "name": "Дом",
+          "image": null,
+          "id": 7
+        },
+        {
+          "name": "Здоровье",
+          "image": null,
+          "id": 113
+        },
+        {
+          "name": "Крастота",
+          "image": null,
+          "id": 137
+        },
+        {
+          "name": "Продукты",
+          "image": null,
+          "id": 233
+        },
+        {
+          "name": "Детям",
+          "image": null,
+          "id": 2694
+        }
+      ],
+      "title": null
+    },
+    {
+      "id": 13,
+      "sort_order": 2,
+      "block": "banner",
+      "item_type": "product",
+      "items": [
+        {
+          "image": "https://zorba.uz/storage/1/conversions/3296419679_1_1_0-large.jpg",
+          "category_id": 2678,
+          "id": 1
+        }
+      ],
+      "title": null
+    },
+    {
+      "id": 14,
+      "title": "addidas Originals R.Y.V",
+      "sort_order": 3,
+      "block": "banner_with_description",
+      "item_type": "category",
+      "items": [
+        {
+          "image": null,
+          "title": null,
+          "description": "Выбирай путь к самовыражению",
+          "sub_title": "Коллекция R.Y.V - повседневная, удобная, минималистичная",
+          "id": 51
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "sort_order": 4,
+      "block": "collections",
+      "item_type": "category",
+      "items": [
+        {
+          "name": "Подкатегория",
+          "image": null,
+          "id": 3
+        },
+        {
+          "name": "С заботой о вас",
+          "image": null,
+          "id": 7
+        },
+        {
+          "name": "Аксессуары для кухни",
+          "image": null,
+          "id": 8
+        }
+      ],
+      "title": "Коллекции"
+    },
+    {
+      "id": 16,
+      "sort_order": 5,
+      "block": "categories",
+      "item_type": "category",
+      "items": [
+        {
+          "name": "Автотовары",
+          "image": null,
+          "id": 7
+        },
+        {
+          "name": "Чтонибудь",
+          "image": null,
+          "id": 8
+        },
+        {
+          "name": "Красота и здоровье",
+          "image": null,
+          "id": 113
+        },
+        {
+          "name": "Электороника",
+          "image": null,
+          "id": 263
+        },
+        {
+          "name": "Товары для  животных",
+          "image": null,
+          "id": 942
+        },
+        {
+          "name": "Одежда, обувь и аксессуары",
+          "image": null,
+          "id": 2674
+        }
+      ],
+      "title": "Лучшие в категориях"
+    },
+    {
+      "id": 17,
+      "sort_order": 6,
+      "block": "products_small",
+      "item_type": "product",
+      "items": [],
+      "title": "Мы рекомендуем"
+    },
+    {
+      "id": 18,
+      "sort_order": 7,
+      "block": "products_big",
+      "item_type": "product",
+      "items": [
+        {
+          "name": "Однотонные плавки бикини",
+          "category_name": null,
+          "image": "https://zorba.uz/storage/266/3296419679_1_1_0.jpg",
+          "price": 0,
+          "currency": null,
+          "price_2": null,
+          "currency_2": null,
+          "category_id": 5033,
+          "id": 7
+        },
+        {
+          "name": "Плавки бикини с декоративными деталями",
+          "category_name": null,
+          "image": "https://zorba.uz/storage/474/3997631513_1_1_0.jpg",
+          "price": 0,
+          "currency": null,
+          "price_2": null,
+          "currency_2": null,
+          "category_id": 5033,
+          "id": 9
+        }
+      ],
+      "title": "Смартфоны"
+    },
+    {
+      "id": 19,
+      "sort_order": 8,
+      "block": "categories",
+      "item_type": "category",
+      "items": [],
+      "title": "Лучшее товары в категориях"
+    },
+    {
+      "id": 20,
+      "sort_order": 0,
+      "block": "products_small",
+      "item_type": "product",
+      "items": [
+        {
+          "name": "Бюстгальтер бикини с кольцом",
+          "image": "https://zorba.uz/storage/106/3997631800_2_5_0.jpg",
+          "price": 0,
+          "currency": null,
+          "old_price": 0,
+          "discount": 0,
+          "category_id": 5033,
+          "id": 4
+        }
+      ],
+      "title": "BUTIK рекомендует"
+    }
+  ]
+}

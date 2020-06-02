@@ -36,6 +36,16 @@
   font-weight: normal;
 }
 
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1910px !important;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 a:hover {
   text-decoration: none !important;
 }
@@ -99,8 +109,8 @@ button {
 }
 
 .form-group {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 input {
@@ -1073,7 +1083,7 @@ a,
 a:hover,
 a:focus,
 a:active {
-  color: #282828 !important;
+  color: #282828;
   text-decoration: none !important;
 }
 
@@ -1209,9 +1219,15 @@ body {
 }
 .md-product__item:hover {
   background: #fff;
-  text-decoration: underline;
+  text-decoration: underline !important;
+  color: #282828 !important;
 }
-
+.md-product__item {
+  color: #282828 !important;
+}
+.md-product__item h5 {
+  color: #282828 !important;
+}
 .md-product__item:hover .md-product__photo img {
   transform: scale(1.1);
 }
@@ -1232,7 +1248,9 @@ body {
 .md-product__title {
   display: block;
   text-align: center;
+  color: #282828 !important;
 }
+
 .md-product__title h5 {
   font-size: 20px;
   font-family: "YandexSansText-Regular", sans-serif;
@@ -1306,6 +1324,7 @@ body {
 }
 
 .previous-price {
+  color: #282828 !important;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1699,11 +1718,11 @@ label input[type="checkbox"]:checked + .favourite-item__icon::before {
 .header-top__location {
   margin-top: 5px;
   margin-bottom: 5px;
-  color: #fff;
+  color: #fff !important;
   font-size: 15px;
 }
 .header-top__location:hover {
-  color: #fff;
+  color: #fff !important;
 }
 .header-top__location .fa {
   margin-right: 5px;
@@ -1714,6 +1733,7 @@ label input[type="checkbox"]:checked + .favourite-item__icon::before {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 0 !important;
 }
 .header-top__link ul li:first-child a {
   margin-left: 0;
@@ -1899,7 +1919,7 @@ label input[type="checkbox"]:checked + .favourite-item__icon::before {
   text-decoration: none !important;
   color: #2b2c39;
   font-size: 16px;
-  text-transform: uppercase;
+  text-transform: capitalize !important;
   padding: 30px 15px;
   font-family: "YandexSansText-Bold", sans-serif;
   display: block;
@@ -2084,8 +2104,8 @@ label input[type="checkbox"]:checked + .favourite-item__icon::before {
 .header-auth__inner a {
   display: inline-flex;
   font-size: 17px;
-  color: #1064ff;
-  text-decoration: underline;
+  color: #1064ff !important;
+  text-decoration: underline !important;
   margin-top: 10px;
   font-family: "YandexSansText-Medium", sans-serif;
 }
