@@ -1,6 +1,45 @@
 @tailwind base;
 @tailwind components;
 
+@font-face {
+  font-family: "YandexSansText-Thin";
+  src: url("./YandexSansText/YandexSansText-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "YandexSansText-Light";
+  src: url("./YandexSansText/YandexSansText-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "YandexSansText-Regular";
+  src: url("./YandexSansText/YandexSansText-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "YandexSansText-Medium";
+  src: url("./YandexSansText/YandexSansText-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "YandexSansText-Bold";
+  src: url("./YandexSansText/YandexSansText-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
 .blue-color {
   background: #4ba6be;
 }
@@ -1034,12 +1073,12 @@ a,
 a:hover,
 a:focus,
 a:active {
-  color: #282828;
-  text-decoration: none;
+  color: #282828 !important;
+  text-decoration: none !important;
 }
 
 body {
-  font-family: "YandexSansText-Regular", sans-serif;
+  font-family: "YandexSansText-Regular", sans-serif !important;
 }
 
 .main-btn {
@@ -1857,12 +1896,21 @@ label input[type="checkbox"]:checked + .favourite-item__icon::before {
 .navbar-default .navbar-nav > li > a,
 .mainmenu ul li a,
 .navbar-expand-lg .navbar-nav .nav-link {
+  text-decoration: none !important;
   color: #2b2c39;
   font-size: 16px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   padding: 30px 15px;
   font-family: "YandexSansText-Bold", sans-serif;
   display: block;
+  font-weight: bold;
+}
+
+.mainmenu a,
+.navbar-default .navbar-nav > li > a,
+.mainmenu ul li a,
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  text-decoration: none !important;
 }
 
 .desktop-menu .dropdown-menu a {
@@ -1956,6 +2004,10 @@ label input[type="checkbox"]:checked + .favourite-item__icon::before {
   position: relative;
   border-radius: 6px;
   overflow: hidden;
+  /* background: url("../src/assets/img/banner.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-banner__text {
@@ -4952,8 +5004,8 @@ input[type="range"]:focus {
   .navbar-default .navbar-nav > li > a,
   .mainmenu ul li a,
   .navbar-expand-lg .navbar-nav .nav-link {
-    font-size: 14px;
-    padding: 20px 10px;
+    font-size: 14px !important;
+    padding: 20px 10px !important;
   }
   .hero-text {
     font-size: 56px;
