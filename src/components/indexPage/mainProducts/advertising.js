@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assets/img/adv.jpg";
+import img from "../../../assets/img/adv.jpg";
 
 function Advertising() {
   return (

@@ -1,12 +1,11 @@
 import React from "react";
-import img from "../../assets/img/md-product.jpg";
-import { products } from "./product.json";
+import img from "../../../assets/img/md-product.jpg";
 
 function ProductAside() {
   return (
     <div className="product-aside__main">
       <div className="product-type__aside">
-        {products.map((index) => {
+        {Array.from(Array(7).keys()).map((index) => {
           return (
             <a key={Math.random()} href="#!" className="md-product__item">
               <span className="md-product__photo">

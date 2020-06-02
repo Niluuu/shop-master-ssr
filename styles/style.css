@@ -1166,12 +1166,13 @@ body {
 
 .section-top__link {
   font-size: 22px;
-  text-decoration: underline;
+  text-decoration: underline !important;
   color: #1064ff;
 }
 
 .section-top__link:hover {
   color: #1064ff;
+  text-decoration: none !important;
 }
 
 .section-wrap {
@@ -1509,7 +1510,7 @@ label input[type="checkbox"]:checked + .favourite-item__icon::before {
   margin-right: 30px;
 }
 .link-block ul li a:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 .grid-8__col {
