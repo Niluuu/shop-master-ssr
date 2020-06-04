@@ -1,0 +1,17 @@
+const withPlugins = require("next-compose-plugins");
+const images = require("next-images");
+const fonts = require("next-fonts");
+
+// next.js configuration
+const nextConfig = {
+  useFileSystemPublicRoutes: false,
+  distDir: "build",
+};
+
+module.exports = withPlugins(
+  [
+    images,
+    fonts,
+  ],
+  nextConfig
+);
